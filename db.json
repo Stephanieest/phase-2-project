@@ -1,0 +1,246 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "name": "BBQ Pulled Pork Sliders",
+        "category": "Meaty",
+        "description": "Tender pulled pork slow-cooked in BBQ sauce, served on soft slider buns with pickles.",
+        "image": "https://i.pinimg.com/236x/3d/3d/26/3d3d26856c3e0678d853f26ab9c4bf9a.jpg",
+        "price": 272860
+      },
+      {
+        "id": 2,
+        "name": "Beef Wellington Bites",
+        "category": "Meaty",
+        "description": "Miniature versions of the classic Beef Wellington with beef fillet, mushrooms, and puff pastry.",
+        "image": "https://i.pinimg.com/236x/be/31/5f/be315fc93300d55e4b81b4175c7bcc37.jpg",
+        "price": 335860
+      },
+      {
+        "id": 3,
+        "name": "Grilled Shrimp Skewers",
+        "category": "Seafood",
+        "description": "Marinated shrimp grilled with a zesty garlic-lemon herb sauce.",
+        "image": "",
+        "price": 388500
+      },
+      {
+        "id": 4,
+        "name": "Salmon Tartare",
+        "category": "Seafood",
+        "description": "Fresh, diced salmon with capers, shallots, and a tangy citrus dressing.",
+        "image": "https://i.pinimg.com/236x/af/f8/b2/aff8b23f3634389541cbd235d0c1467e.jpg",
+        "price": 356720
+      },
+      {
+        "id": 5,
+        "name": "Cheese Fondue",
+        "category": "Cheesy",
+        "description": "A melting pot of Gruyère and Emmental cheese served with bread, vegetables, and fruits.",
+        "image": "https://i.pinimg.com/236x/c4/c1/13/c4c113e94525391b9ee51e17048b0eed.jpg",
+        "price": 524860
+      },
+      {
+        "id": 6,
+        "name": "Mac and Cheese",
+        "category": "Cheesy",
+        "description": "A creamy, cheesy pasta dish made with elbow macaroni and a blend of melted cheeses.",
+        "image": "https://i.pinimg.com/236x/21/93/e4/2193e47bdd283271d81edbd5d6861a3b.jpg",
+        "price": 251860
+      },
+      {
+        "id": 7,
+        "name": "Mozzarella Sticks",
+        "category": "Cheesy",
+        "description": "Golden, crispy breaded mozzarella sticks served with marinara sauce.",
+        "image": "https://i.pinimg.com/236x/1a/eb/06/1aeb067ea301c4337b111351db7c65f3.jpg",
+        "price": 209860
+      },
+      {
+        "id": 8,
+        "name": "Cheeseburger",
+        "category": "Meaty",
+        "description": "Juicy beef patty topped with cheddar cheese, lettuce, tomato, pickles, and special sauce.",
+        "image": "https://i.pinimg.com/236x/84/8a/ef/848aeff22e7b2cf281db9c79f1d15ccd.jpg",
+        "price": 293860
+      },
+      {
+        "id": 9,
+        "name": "Lobster Roll",
+        "category": "Seafood",
+        "description": "Fresh lobster meat mixed with a light mayo dressing, served in a buttery toasted bun.",
+        "image": "https://i.pinimg.com/236x/c1/6c/1f/c16c1f06db949d0838fbdde37ea28195.jpg",
+        "price": 482860
+      },
+      {
+        "id": 10,
+        "name": "Chicken Parmesan",
+        "category": "Meaty",
+        "description": "Breaded chicken cutlet topped with marinara sauce and melted mozzarella, served over spaghetti.",
+        "image": "https://i.pinimg.com/236x/1e/4e/9e/1e4e9eeaa2fd14265a88870b7e2192ea.jpg",
+        "price": 398860
+      },
+      {
+        "id": 11,
+        "name": "Chocolate Lava Cake",
+        "category": "Dessert",
+        "description": "Decadent chocolate cake with a molten center, served with vanilla ice cream.",
+        "image": "https://i.pinimg.com/474x/10/fc/69/10fc6983f3d647781f60c2e4c5cffe91.jpg",
+        "price": 188860
+      },
+      {
+        "id": 12,
+        "name": "Tiramisu",
+        "category": "Dessert",
+        "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa.",
+        "image": "https://i.pinimg.com/236x/de/5c/84/de5c84cf16a69a5e5ce8a82cec2126cf.jpg",
+        "price": 167860
+      },
+      {
+        "id": 13,
+        "name": "Cheesecake",
+        "category": "Dessert",
+        "description": "Smooth, creamy cheesecake with a buttery graham cracker crust, topped with strawberry sauce.",
+        "image": "https://i.pinimg.com/474x/b8/ae/39/b8ae39b2fb3ac194cccd729a513b9406.jpg",
+        "price": 146860
+      },
+      {
+        "id": 14,
+        "name": "Lemon Meringue Pie",
+        "category": "Dessert",
+        "description": "Tangy lemon filling topped with a light, fluffy meringue, in a buttery pie crust.",
+        "image": "https://i.pinimg.com/474x/27/08/6a/27086a4a112ff2bd4450995dc55a02f1.jpg",
+        "price": 125860
+      },
+      {
+        "id": 15,
+        "name": "Iced Matcha Latte",
+        "category": "Alcohol-Free Drink",
+        "description": "A chilled blend of matcha green tea and creamy milk, served over ice.",
+        "image": "https://i.pinimg.com/236x/9e/bb/b1/9ebbb15b5be85b6f6d267d57ed505359.jpg",
+        "price": 94500
+      },
+      {
+        "id": 16,
+        "name": "Strawberry Lemonade",
+        "category": "Alcohol-Free Drink",
+        "description": "Refreshing lemonade mixed with fresh strawberry puree and a hint of mint.",
+        "image": "https://i.pinimg.com/236x/c8/4a/c3/c84ac349a0a181a1e4e591d9bcd7925b.jpg",
+        "price": 83900
+      },
+      {
+        "id": 17,
+        "name": "Virgin Mojito",
+        "category": "Alcohol-Free Drink",
+        "description": "A refreshing mix of mint, lime, sugar, and soda water.",
+        "image": "https://i.pinimg.com/236x/8a/3a/ef/8a3aef23c857ac1a2fd7b5fa1bcda19b.jpg",
+        "price": 84000
+      },
+      {
+        "id": 18,
+        "name": "Cucumber Mint Cooler",
+        "category": "Alcohol-Free Drink",
+        "description": "A crisp and cool mix of cucumber, mint, and soda water, perfect for a hot day.",
+        "image": "https://i.pinimg.com/236x/a4/36/35/a43635f2ddee65ff5cfeb7890d38a314.jpg",
+        "price": 89180
+      },
+      {
+        "id": 19,
+        "name": "Peach Iced Tea",
+        "category": "Alcohol-Free Drink",
+        "description": "Sweetened iced tea with a splash of fresh peach puree.",
+        "image": "https://i.pinimg.com/236x/57/d3/b0/57d3b022459a0750ba34ee90fa95c9bf.jpg",
+        "price": 73500
+      },
+      {
+        "id": 20,
+        "name": "Carrot Cake",
+        "category": "Dessert",
+        "description": "Moist carrot cake with cream cheese frosting and a sprinkle of walnuts.",
+        "image": "https://i.pinimg.com/236x/54/d8/8a/54d88abdd338422bad62fb2a7bcc98cf.jpg",
+        "price": 136500
+      },
+      {
+        "id": 21,
+        "name": "Seafood Boil",
+        "category": "Seafood",
+        "description": "A delicious seafood boil with shrimp, crab, lobster, corn, potatoes, and seasoned with Old Bay spices, served with melted butter.",
+        "price": 181860,
+        "image": "https://i.pinimg.com/236x/dd/a8/07/dda8077de8d9953e80e7b87f4469adbe.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Chicken Alfredo",
+        "category": "Meaty",
+        "description": "Creamy Alfredo sauce with grilled chicken and fettuccine, topped with parmesan.",
+        "price": 265860,
+        "image": "https://i.pinimg.com/236x/fb/37/45/fb3745c0fc5a8719c02491a6edea8aaf.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Four Cheese Pizza",
+        "category": "Cheesy",
+        "description": "A delicious mix of mozzarella, cheddar, parmesan, and gouda on a crispy crust.",
+        "price": 209860,
+        "image": "https://i.pinimg.com/236x/4f/f6/dd/4ff6dd8ce5acb172e34178a0376e7e61.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Cheesy Meatball Sub",
+        "category": "Meaty",
+        "description": "Savory meatballs in marinara sauce, topped with melted mozzarella, served in a toasted sub roll.",
+        "price": 195860,
+        "image": "https://i.pinimg.com/236x/fa/cd/f5/facdf576ee762ac7404b8da265b933ba.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Beef Wellington",
+        "category": "Meaty",
+        "description": "Tender beef wrapped in puff pastry with mushroom duxelles and a creamy cheese sauce.",
+        "price": 419860,
+        "image": "https://i.pinimg.com/236x/25/74/b4/2574b4b04dc32db92940e1bf5fdb1770.jpg"
+      },
+      {
+        "id": 26,
+        "name": "BBQ Ribs",
+        "category": "Meaty",
+        "description": "Tender pork ribs glazed with a smoky barbecue sauce, topped with melted cheddar cheese.",
+        "price": 279860,
+        "image": "https://i.pinimg.com/474x/4e/4d/03/4e4d03d913995cd2b140e408c78ed0ff.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Samosa",
+        "category": "Snacks",
+        "description": "Crispy pastry filled with spiced potatoes and peas, served with chutney.",
+        "image": "https://i.pinimg.com/474x/1c/68/fc/1c68fc95d5e356e843e97679b519959f.jpg",
+        "price": 1000
+      },
+      {
+        "id": 28,
+        "name": "Ice Cream with Marshmallows",
+        "category": "Dessert",
+        "description": "Creamy vanilla ice cream topped with sweet, fluffy marshmallows.",
+        "image": "https://i.pinimg.com/474x/06/59/0c/06590c7a8e2e0d00235e6279aad14c09.jpg",
+        "price": 1500
+      },
+      {
+        "id": 29,
+        "name": "Red Velvet Cake",
+        "category": "Dessert",
+        "description": "Rich, moist red velvet cake with a smooth cream cheese frosting.",
+        "image": "https://i.pinimg.com/236x/75/90/cf/7590cfc03d91635d4faa99b760105d23.jpg",
+        "price": 2500
+      },
+      {
+        "id": 30,
+        "name": "Chips Masala",
+        "category": "Snacks",
+        "description": "Crispy fries tossed in a spicy, tangy masala seasoning.",
+        "image": "https://i.pinimg.com/236x/e1/36/a8/e136a8bcf98cae80bf6406c2f0879fe6.jpg",
+        "price": 1200
+      }
+      
+    ]
+  }
+  
