@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <h1>
                 Welcome to Steph-FC!! -  Where Every Meal is Made with Love
             </h1>
@@ -16,7 +17,9 @@ const Home = () => {
             />
 
             <div>
-                <button> Explore the Menu </button>
+                <Link to="/menu">
+                 <button> Explore the Menu </button>
+                </Link>
             </div>
         
         </div>
