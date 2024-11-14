@@ -55,19 +55,24 @@ const removeFromFavourites = (itemId) => {
 
 
 
-return (
-  <Router>
-    <Navbar />
-    {alertMessage && <div className="alert">{alertMessage}</div>}
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/menu" element={<Menu food={menuFood} addToCart={addToCart} addToFavourites={addToFavourites} />} />
-      <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} />} />
-      <Route path="/favourites" element={<Favourites favourites={favourites} removeFromFavourites={removeFromFavourites} />} />
-    </Routes>
-  </Router>
+ return (
+    <Router>
+      <Navbar />
+      {alertMessage && <div className="alert">{alertMessage}</div>}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/menu"
+          element={<Menu food={Menufood} addToCart={addToCart} addToFavourites={addToFavourites} />}
+        />
+        <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} />} />
+        <Route
+          path="/favourites"
+          element={<Favourites favourites={favourites} removeFromFavourites={removeFromFavourites} />}
+        />
+      </Routes>
+    </Router>
   );
-
 }
 
 export default App;
