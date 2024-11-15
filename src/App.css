@@ -1,0 +1,12 @@
+/* App.css */
+
+/* Overall body styling */
+body {
+  background-color: #2a2a2a;
+  color: #f4f4f9; 
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
