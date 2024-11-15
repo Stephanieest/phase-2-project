@@ -6,9 +6,12 @@ const Menu = ({ addToCart, addToFavourites }) => {
 
   // GET request to fetch food from the backend
   useEffect(() => {
-    fetch('http://localhost:5001/food')
+    fetch('http://localhost:3001/food')
       .then((res) => res.json())
-      .then((data) => setFood(data))
+      .then((data) => {
+        console.log('Fetched food data:', data); // Debug log
+        setFood(data);
+      })
       .catch((error) => console.error('Error fetching food:', error));
   }, []);
 
@@ -16,6 +19,8 @@ const Menu = ({ addToCart, addToFavourites }) => {
   const filteredFood = food.filter((foodItem) =>
     foodItem.name.toLowerCase().includes(search.toLowerCase())
   );
+
+  console.log('Filtered food:', filteredFood); // Debug log
 
   return (
     <div>

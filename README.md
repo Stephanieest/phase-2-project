@@ -58,17 +58,22 @@ If you want to run the project locally, follow these steps:
 ### Installation Process
 
 1. Clone this repository:
-`code` git@github.com:dennis-kiboi/blog-app-sdf-ft11.git
+
+`code` git@github.com:Stephanieest/phase-2-project.git
+
 or by downloading a ZIP file of the code.
 
 2. Navigate to the project directory:
-`code` cd phase-2-project
+`code` 
+cd phase-2-project
 
 3. Install the required dependecies: 
-`code` npm install
+`code`
+npm install
 
 4. Run the development server:
-`code` npm start
+`code` 
+npm start
 
 
 5. Open your browser and visit http://localhost:3000 to view the app locally.
