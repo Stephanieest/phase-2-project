@@ -63,7 +63,7 @@ const removeFromFavourites = (itemId) => {
         <Route path="/" element={<Home />} />
         <Route
           path="/menu"
-          element={<Menu food={Menufood} addToCart={addToCart} addToFavourites={addToFavourites} />}
+          element={<Menu food={menuFood} addToCart={addToCart} addToFavourites={addToFavourites} />}
         />
         <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} />} />
         <Route

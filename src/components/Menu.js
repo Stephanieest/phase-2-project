@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Menu = ({ addToCart, addToFavourites }) => {
-  const [items, setFood] = useState([]);
+  const [food, setFood] = useState([]);
   const [search, setSearch] = useState('');
 
   useEffect(() => {
@@ -10,8 +10,8 @@ const Menu = ({ addToCart, addToFavourites }) => {
       .then(data => setFood(data));
   }, []);
 
-  const filteredFood = items.filter(item =>
-    item.name.toLowerCase().includes(search.toLowerCase())
+  const filteredFood = food.filter(food =>
+    food.name.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
@@ -27,19 +27,19 @@ const Menu = ({ addToCart, addToFavourites }) => {
 
       <div>
         {filteredFood.length > 0 ? (
-          filteredFood.map((item) => (
-            <div key={item.id}>
-              <img src={item.image} alt={item.name} />
-              <h4>{item.name}</h4>
-              <p>{item.description}</p>
-              <p>${item.price}</p>
+          filteredFood.map((food) => (
+            <div key={food.id}>
+              <img src={food.image} alt={food.name} />
+              <h4>{food.name}</h4>
+              <p>{food.description}</p>
+              <p>${food.price}</p>
 
-              <button onClick={() => addToCart(item)}>Add to Cart</button>
-              <button onClick={() => addToFavourites(item)}>Add to Favourites</button>
+              <button onClick={() => addToCart(food)}>Add to Cart</button>
+              <button onClick={() => addToFavourites(food)}>Add to Favourites</button>
             </div>
           ))
         ) : (
-          <p>No items found</p>
+          <p>No food found</p>
         )}
       </div>
     </div>
