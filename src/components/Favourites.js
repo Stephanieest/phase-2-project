@@ -5,7 +5,7 @@ const Favourites = ({ favourites, removeFromFavourites }) => (
     <h2>Favourites</h2>
     <div className="favourite-items">
       {favourites.length > 0 ? (
-        favourites.map(item => (
+        favourites.map( => (
           <div key={item.id} className="favourite-item">
             <h4>{item.name}</h4>
             <p>${item.price}</p>

@@ -3,13 +3,13 @@ import React from 'react';
 const Cart = ({ cart, removeFromCart }) => (
   <div>
     <h2>Cart</h2>
-    <div className="cart-items">
+    <div className="cart-food">
       {cart.length > 0 ? (
-        cart.map(item => (
-          <div key={item.id} className="cart-item">
-            <h4>{item.name}</h4>
-            <p>${item.price}</p>
-            <button onClick={() => removeFromCart(item.id)}>Remove</button>
+        cart.map(food => (
+          <div key={food.id} className="cart-food">
+            <h4>{food.name}</h4>
+            <p>${food.price}</p>
+            <button onClick={() => removeFromCart(food.id)}>Remove</button>
           </div>
         ))
       ) : (
