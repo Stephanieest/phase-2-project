@@ -62,7 +62,7 @@ If you want to run the project locally, follow these steps:
 or by downloading a ZIP file of the code.
 
 2. Navigate to the project directory:
-cd `phase-2-project`
+`cd phase-2-project`
 
 3. Install the required dependecies: 
 `npm install`
@@ -83,6 +83,7 @@ cd `phase-2-project`
 ## Related Repositories
 
 Backend API: [Backend Repo] (https://github.com/Stephanieest/steph-fc-back-end)
+
 Deployed API: [Deployed Backend] (https://steph-fc-back-end.onrender.com/)
 
 ## Support and Contact
