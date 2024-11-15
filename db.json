@@ -10,10 +10,10 @@
     },
     {
       "id": 2,
-      "name": "Beef Wellington Bites",
-      "category": "Meaty",
-      "description": "Miniature versions of the classic Beef Wellington with beef fillet, mushrooms, and puff pastry.",
-      "image": "https://i.pinimg.com/236x/be/31/5f/be315fc93300d55e4b81b4175c7bcc37.jpg",
+      "name": "Falafel",
+      "category": "Vegeterian",
+      "description": "Deep-fried chickpea balls seasoned with herbs and spices. Served in pita with fresh vegetables and tahini.",
+      "image": "https://i.pinimg.com/236x/18/8c/2a/188c2a49ab3882225c28d93b8950862c.jpg",
       "price": 3.02
     },
     {
@@ -26,10 +26,10 @@
     },
     {
       "id": 4,
-      "name": "Salmon Tartare",
-      "category": "Seafood",
-      "description": "Fresh, diced salmon with capers, shallots, and a tangy citrus dressing.",
-      "image": "https://i.pinimg.com/236x/af/f8/b2/aff8b23f3634389541cbd235d0c1467e.jpg",
+      "name": "Shawarma",
+      "category": "Meaty",
+      "description": "Shawarma is a delicious, flavorful meat dish made by slow-cooking marinated lamb, chicken, or beef on a vertical rotisserie. It’s typically served in a warm flatbread with garlic sauce, pickles, and vegetables.",
+      "image": "https://i.pinimg.com/236x/e9/20/32/e9203270ebd1662f19f84c5afcd1fb0f.jpg",
       "price": 3.21
     },
     {

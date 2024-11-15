@@ -23,28 +23,47 @@ const Menu = ({ addToCart, addToFavourites }) => {
   console.log('Filtered food:', filteredFood); // Debug log
 
   return (
-    <div>
-      <h2>MENU</h2>
+    <div className="menu-container">
+      <h2 className="menu-title">MENU</h2>
       <input
         type="text"
+        className="search-input"
         placeholder="Search for food"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      <div>
+      <div className="menu-items">
         {filteredFood.length > 0 ? (
           filteredFood.map((foodItem) => (
-            <div key={foodItem.id}>
-              <img src={foodItem.image} alt={foodItem.name} />
-              <h4>{foodItem.name}</h4>
-              <p>{foodItem.description}</p>
-              <p>${foodItem.price}</p>
-              <button onClick={() => addToCart(foodItem)}>Add to Cart</button>
-              <button onClick={() => addToFavourites(foodItem)}>Add to Favourites</button>
+            <div key={foodItem.id} className="food-card">
+              <img
+                src={foodItem.image}
+                alt={foodItem.name}
+                className="food-image"
+              />
+              <div className="food-info">
+                <h4 className="food-name">{foodItem.name}</h4>
+                <p className="food-description">{foodItem.description}</p>
+                <p className="food-price">${foodItem.price}</p>
+                <div className="food-buttons">
+                  <button
+                    className="add-to-cart"
+                    onClick={() => addToCart(foodItem)}
+                  >
+                    Add to Cart
+                  </button>
+                  <button
+                    className="add-to-favourites"
+                    onClick={() => addToFavourites(foodItem)}
+                  >
+                    Add to Favourites
+                  </button>
+                </div>
+              </div>
             </div>
           ))
         ) : (
-          <p>No food found</p>
+          <p className="no-food">No food found</p>
         )}
       </div>
     </div>
