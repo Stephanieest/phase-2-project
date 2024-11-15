@@ -36,7 +36,7 @@ Screenshot
 - Access to the internet
 - A modern web browser (Chrome, Firefox, Safari)
 
-## View Live Site
+## View Live Site 
 
 Visit the live application at: Steph-FC Restaurant App
 
@@ -87,8 +87,8 @@ npm start
 
 ## Related Repositories
 
-Backend API: API for fetching food data (if applicable).
-Deployed API: Live API URL for food data.
+Backend API: [Backend Repo] (https://github.com/Stephanieest/steph-fc-back-end)
+Deployed API: [Deployed Backend] (https://steph-fc-back-end.onrender.com/)
 
 ## Support and Contact
 For any questions, suggestions, or assistance, feel free to reach out:
