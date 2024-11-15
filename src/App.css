@@ -10,3 +10,26 @@ body {
   box-sizing: border-box;
 }
 
+/* Navbar styling */
+.navbar {
+  background-color: #444444;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #f8d1f7; 
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
