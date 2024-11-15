@@ -1,43 +1,54 @@
-Steph-FC Restaurant App
+# Steph-FC Restaurant App
+
 A simple and intuitive restaurant web application built using React JS, showcasing menu items, cart functionality, and favourites management for a better dining experience. The app allows users to explore a menu, add items to their cart and favourites, and manage them easily.
 
 By: Stephanie Njonjo
-Description
+
+
+# Description
+
 Steph-FC is a restaurant web application that brings together a seamless experience for customers to browse a delicious menu, add their favorite items to a cart or favourites list, and manage their selections easily. The app features React JS for dynamic interactions and state management, and it makes use of React Router for navigation across pages.
 
 With Steph-FC, users can:
 
-Browse the menu of available dishes.
-Add items to their cart.
-Save their favorite dishes to a favourites list for quick access.
-Easily remove items from both the cart and favourites list.
-Features
-Home Page: A welcoming page that introduces the restaurant and offers easy navigation to the menu, cart, and favourites pages.
-Menu: Displays a list of available food items with the ability to filter by name and add items to the cart or favourites.
-Cart: Allows users to view, manage, and remove items from their cart.
-Favourites: Lets users save their favorite dishes and easily remove them when desired.
-Search Functionality: Users can search for menu items by name.
-Alerts: Displays a confirmation alert when an item is added or removed from the cart or favourites.
+1. Browse the menu of available dishes.
+1. Add items to their cart.
+1. Save their favorite dishes to a favourites list for quick access.
+1. Easily remove items from both the cart and favourites list.
+
+## Features
+
+1. Home Page: A welcoming page that introduces the restaurant and offers easy navigation to the menu, cart, and favourites pages.
+1. Menu: Displays a list of available food items with the ability to filter by name and add items to the cart or favourites.
+1. Cart: Allows users to view, manage, and remove items from their cart.
+1. Favourites: Lets users save their favorite dishes and easily remove them when desired.
+1. Search Functionality: Users can search for menu items by name.
+1. Alerts: Displays a confirmation alert when an item is added or removed from the cart or favourites.
+
 Screenshot
 ![alt text](image.png)
-Example screenshot of the app UI.
 
-How to Use
-Requirements
-A computer, tablet, or phone
-Access to the internet
-A modern web browser (Chrome, Firefox, Safari)
-View Live Site
+## How to Use
+
+## Requirements
+
+1. A computer, tablet, or phone
+1. Access to the internet
+1. A modern web browser (Chrome, Firefox, Safari)
+
+## View Live Site
+
 Visit the live application at: Steph-FC Restaurant App
 
-Explore the Menu: Browse the available food items and search for specific dishes.
-Manage Your Cart: Add dishes to your cart and proceed to checkout when ready.
-Save Favourites: Add your favorite dishes to the Favourites page for easy access.
-Manage Favourites: Remove items from your favourites list with a click.
-Local Development
+The live site allows you to: 
+1. Explore the Menu: Browse the available food items and search for specific dishes.
+1. Manage Your Cart: Add dishes to your cart and proceed to checkout when ready.
+1. Save Favourites: Add your favorite dishes to the Favourites page for easy access.
+1. Manage Favourites: Remove items from your favourites list with a click.
+
+## Local Development
 If you want to run the project locally, follow these steps:
 
-Prerequisites
 Node.js installed on your computer
 A basic understanding of React JS
 A code editor (VS Code recommended)
