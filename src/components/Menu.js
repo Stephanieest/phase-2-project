@@ -4,38 +4,38 @@ const Menu = ({ addToCart, addToFavourites }) => {
   const [food, setFood] = useState([]);
   const [search, setSearch] = useState('');
 
+  // GET request to fetch food from the backend
   useEffect(() => {
     fetch('http://localhost:5001/food')
-      .then(res => res.json())
-      .then(data => setFood(data));
+      .then((res) => res.json())
+      .then((data) => setFood(data))
+      .catch((error) => console.error('Error fetching food:', error));
   }, []);
 
-  const filteredFood = food.filter(food =>
-    food.name.toLowerCase().includes(search.toLowerCase())
+  // Filtering food based on search input
+  const filteredFood = food.filter((foodItem) =>
+    foodItem.name.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
     <div>
       <h2>MENU</h2>
-
       <input
         type="text"
         placeholder="Search for food"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-
       <div>
         {filteredFood.length > 0 ? (
-          filteredFood.map((food) => (
-            <div key={food.id}>
-              <img src={food.image} alt={food.name} />
-              <h4>{food.name}</h4>
-              <p>{food.description}</p>
-              <p>${food.price}</p>
-
-              <button onClick={() => addToCart(food)}>Add to Cart</button>
-              <button onClick={() => addToFavourites(food)}>Add to Favourites</button>
+          filteredFood.map((foodItem) => (
+            <div key={foodItem.id}>
+              <img src={foodItem.image} alt={foodItem.name} />
+              <h4>{foodItem.name}</h4>
+              <p>{foodItem.description}</p>
+              <p>${foodItem.price}</p>
+              <button onClick={() => addToCart(foodItem)}>Add to Cart</button>
+              <button onClick={() => addToFavourites(foodItem)}>Add to Favourites</button>
             </div>
           ))
         ) : (
