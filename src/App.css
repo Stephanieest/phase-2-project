@@ -33,3 +33,26 @@ body {
   font-size: 1.2rem;
 }
 
+/* Home page */
+.home {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home h1 {
+  color: #f8d1f7; 
+  font-size: 2.5rem;
+}
+
+.home p {
+  color: #a2c9d6; /* Pastel blue */
+  font-size: 1.2rem;
+}
+
+.home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
