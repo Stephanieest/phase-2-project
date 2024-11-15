@@ -8,6 +8,7 @@ const Favourites = ({ favourites, removeFromFavourites }) => (
         favourites.map(food => (
           <div key={food.id} className="favourite-food">
             <h4>{food.name}</h4>
+            <img src={food.image} alt={food.name} className="cart-food-image" />
             <p>${food.price}</p>
             <button onClick={() => removeFromFavourites(food.id)}>Remove from Favourites</button>
           </div>

@@ -6,10 +6,11 @@ const Cart = ({ cart, removeFromCart }) => (
     <div className="cart-food">
       {cart.length > 0 ? (
         cart.map(food => (
-          <div key={food.id} className="cart-food">
-            <h4>{food.name}</h4>
-            <p>${food.price}</p>
-            <button onClick={() => removeFromCart(food.id)}>Remove</button>
+          <div key={food.id} className="cart-food-item">
+             <h4>{food.name}</h4>
+             <img src={food.image} alt={food.name} className="cart-food-image" />
+             <p>${food.price}</p>
+             <button onClick={() => removeFromCart(food.id)}>Remove</button>
           </div>
         ))
       ) : (

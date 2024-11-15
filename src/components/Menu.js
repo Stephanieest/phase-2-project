@@ -9,10 +9,8 @@ const Menu = ({ addToCart, addToFavourites }) => {
     fetch('http://localhost:3001/food')
       .then((res) => res.json())
       .then((data) => {
-        console.log('Fetched food data:', data); // Debug log
         setFood(data);
       })
-      .catch((error) => console.error('Error fetching food:', error));
   }, []);
 
   // Filtering food based on search input
