@@ -11,19 +11,19 @@ Steph-FC is a restaurant web application that brings together a seamless experie
 
 With Steph-FC, users can:
 
-1. Browse the menu of available dishes.
-1. Add items to their cart.
-1. Save their favorite dishes to a favourites list for quick access.
-1. Easily remove items from both the cart and favourites list.
+- Browse the menu of available dishes.
+- Add items to their cart.
+- Save their favorite dishes to a favourites list for quick access.
+- Easily remove items from both the cart and favourites list.
 
 ## Features
 
-1. Home Page: A welcoming page that introduces the restaurant and offers easy navigation to the menu, cart, and favourites pages.
-1. Menu: Displays a list of available food items with the ability to filter by name and add items to the cart or favourites.
-1. Cart: Allows users to view, manage, and remove items from their cart.
-1. Favourites: Lets users save their favorite dishes and easily remove them when desired.
-1. Search Functionality: Users can search for menu items by name.
-1. Alerts: Displays a confirmation alert when an item is added or removed from the cart or favourites.
+- Home Page: A welcoming page that introduces the restaurant and offers easy navigation to the menu, cart, and favourites pages.
+- Menu: Displays a list of available food items with the ability to filter by name and add items to the cart or favourites.
+- Cart: Allows users to view, manage, and remove items from their cart.
+- Favourites: Lets users save their favorite dishes and easily remove them when desired.
+- Search Functionality: Users can search for menu items by name.
+- Alerts: Displays a confirmation alert when an item is added or removed from the cart or favourites.
 
 Screenshot
 ![alt text](image.png)
@@ -32,53 +32,53 @@ Screenshot
 
 ## Requirements
 
-1. A computer, tablet, or phone
-1. Access to the internet
-1. A modern web browser (Chrome, Firefox, Safari)
+- A computer, tablet, or phone
+- Access to the internet
+- A modern web browser (Chrome, Firefox, Safari)
 
 ## View Live Site
 
 Visit the live application at: Steph-FC Restaurant App
 
 The live site allows you to: 
-1. Explore the Menu: Browse the available food items and search for specific dishes.
-1. Manage Your Cart: Add dishes to your cart and proceed to checkout when ready.
-1. Save Favourites: Add your favorite dishes to the Favourites page for easy access.
-1. Manage Favourites: Remove items from your favourites list with a click.
+- Explore the Menu: Browse the available food items and search for specific dishes.
+- Manage Your Cart: Add dishes to your cart and proceed to checkout when ready.
+- Save Favourites: Add your favorite dishes to the Favourites page for easy access.
+- Manage Favourites: Remove items from your favourites list with a click.
 
 ## Local Development
 If you want to run the project locally, follow these steps:
 
-1. Node.js installed on your computer
-2. A basic understanding of React JS
-3. A code editor (VS Code recommended)
-4. Terminal or Command Line
+- Node.js installed on your computer
+- A basic understanding of React JS
+- A code editor (VS Code recommended)
+- Terminal or Command Line
 
 
 ### Installation Process
 
 1. Clone this repository:
-git@github.com:dennis-kiboi/blog-app-sdf-ft11.git
+`code` git@github.com:dennis-kiboi/blog-app-sdf-ft11.git
 or by downloading a ZIP file of the code.
 
-1. Navigate to the project directory:
-cd phase-2-project
+2. Navigate to the project directory:
+`code` cd phase-2-project
 
-1. Install the required dependecies: 
-npm install
+3. Install the required dependecies: 
+`code` npm install
 
-1. Run the development server:
-npm start
+4. Run the development server:
+`code` npm start
 
 
-1. Open your browser and visit http://localhost:3000 to view the app locally.
+5. Open your browser and visit http://localhost:3000 to view the app locally.
 
 ## Technologies Used
 
-1. React JS: For building the UI components and managing state.
-1. React Router: For navigation between different pages (Home, Menu, Cart, Favourites).
-1. CSS: For styling the components and layout.
-1. JavaScript: For dynamic functionality and state management.
+- React JS: For building the UI components and managing state.
+- React Router: For navigation between different pages (Home, Menu, Cart, Favourites).
+- CSS: For styling the components and layout.
+- JavaScript: For dynamic functionality and state management.
 
 ## Related Repositories
 
