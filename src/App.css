@@ -94,3 +94,18 @@ button:hover {
   background-color: #f2b0d0; /* Lighter pastel pink for hover */
 }
 
+/* Search */
+input[type="text"] {
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+  border: 2px solid #f8d1f7;
+  border-radius: 5px;
+  background-color: #444444;
+  color: #f4f4f9;
+}
+
+input[type="text"]:focus {
+  border-color: #f2b0d0;
+}
