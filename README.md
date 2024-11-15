@@ -16,7 +16,7 @@ With Steph-FC, users can:
 - Save their favorite dishes to a favourites list for quick access.
 - Easily remove items from both the cart and favourites list.
 
-Screenshot
+## Screenshot
 ![alt text](image.png)
 
 ## Features
@@ -31,13 +31,13 @@ Screenshot
 
 ## How to Use
 
-## Requirements
+# Requirements
 
 - A computer, tablet, or phone
 - Access to the internet
 - A modern web browser (Chrome, Firefox, Safari)
 
-## View Live Site 
+# View Live Site 
 
 Visit the live application at: Steph-FC Restaurant App
 
@@ -47,7 +47,7 @@ The live site allows you to:
 - Save Favourites: Add your favorite dishes to the Favourites page for easy access.
 - Manage Favourites: Remove items from your favourites list with a click.
 
-## Local Development
+# Local Development
 If you want to run the project locally, follow these steps:
 
 - Node.js installed on your computer
@@ -56,7 +56,7 @@ If you want to run the project locally, follow these steps:
 - Terminal or Command Line
 
 
-### Installation Process
+# Installation Process
 
 1. Clone this repository:
 `git clone git@github.com:Stephanieest/phase-2-project.git`
@@ -72,7 +72,7 @@ or by downloading a ZIP file of the code.
 `npm start`
 
 
-5. Open your browser and visit http://localhost:3000 to view the app locally.
+5. Open your browser and visit `http://localhost:3000` to view the app locally.
 
 ## Technologies Used
 
