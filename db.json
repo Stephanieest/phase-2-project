@@ -6,7 +6,7 @@
       "category": "Meaty",
       "description": "Tender pulled pork slow-cooked in BBQ sauce, served on soft slider buns with pickles.",
       "image": "https://i.pinimg.com/236x/3d/3d/26/3d3d26856c3e0678d853f26ab9c4bf9a.jpg",
-      "price": 2.46
+      "price": 12.46
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "category": "Vegeterian",
       "description": "Deep-fried chickpea balls seasoned with herbs and spices. Served in pita with fresh vegetables and tahini.",
       "image": "https://i.pinimg.com/236x/18/8c/2a/188c2a49ab3882225c28d93b8950862c.jpg",
-      "price": 3.02
+      "price": 13.02
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "category": "Seafood",
       "description": "Marinated shrimp grilled with a zesty garlic-lemon herb sauce.",
       "image": "https://i.pinimg.com/236x/af/f8/b2/aff8b23f3634389541cbd235d0c1467e.jpg",
-      "price": 3.50
+      "price": 13.50
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "category": "Meaty",
       "description": "Shawarma is a delicious, flavorful meat dish made by slow-cooking marinated lamb, chicken, or beef on a vertical rotisserie. It’s typically served in a warm flatbread with garlic sauce, pickles, and vegetables.",
       "image": "https://i.pinimg.com/236x/e9/20/32/e9203270ebd1662f19f84c5afcd1fb0f.jpg",
-      "price": 3.21
+      "price": 13.21
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "category": "Cheesy",
       "description": "A melting pot of Gruyère and Emmental cheese served with bread, vegetables, and fruits.",
       "image": "https://i.pinimg.com/236x/c4/c1/13/c4c113e94525391b9ee51e17048b0eed.jpg",
-      "price": 4.72
+      "price": 14.72
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "category": "Cheesy",
       "description": "A creamy, cheesy pasta dish made with elbow macaroni and a blend of melted cheeses.",
       "image": "https://i.pinimg.com/236x/21/93/e4/2193e47bdd283271d81edbd5d6861a3b.jpg",
-      "price": 2.27
+      "price": 12.27
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "category": "Cheesy",
       "description": "Golden, crispy breaded mozzarella sticks served with marinara sauce.",
       "image": "https://i.pinimg.com/236x/1a/eb/06/1aeb067ea301c4337b111351db7c65f3.jpg",
-      "price": 1.89
+      "price": 11.89
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "category": "Meaty",
       "description": "Juicy beef patty topped with cheddar cheese, lettuce, tomato, pickles, and special sauce.",
       "image": "https://i.pinimg.com/236x/84/8a/ef/848aeff22e7b2cf281db9c79f1d15ccd.jpg",
-      "price": 2.64
+      "price": 12.64
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "category": "Seafood",
       "description": "Fresh lobster meat mixed with a light mayo dressing, served in a buttery toasted bun.",
       "image": "https://i.pinimg.com/236x/c1/6c/1f/c16c1f06db949d0838fbdde37ea28195.jpg",
-      "price": 4.35
+      "price": 14.35
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "category": "Meaty",
       "description": "Breaded chicken cutlet topped with marinara sauce and melted mozzarella, served over spaghetti.",
       "image": "https://i.pinimg.com/236x/1e/4e/9e/1e4e9eeaa2fd14265a88870b7e2192ea.jpg",
-      "price": 3.59
+      "price": 13.59
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "category": "Dessert",
       "description": "Decadent chocolate cake with a molten center, served with vanilla ice cream.",
       "image": "https://i.pinimg.com/474x/10/fc/69/10fc6983f3d647781f60c2e4c5cffe91.jpg",
-      "price": 1.70
+      "price": 11.70
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "category": "Dessert",
       "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa.",
       "image": "https://i.pinimg.com/236x/de/5c/84/de5c84cf16a69a5e5ce8a82cec2126cf.jpg",
-      "price": 1.51
+      "price": 11.51
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@
       "category": "Dessert",
       "description": "Smooth, creamy cheesecake with a buttery graham cracker crust, topped with strawberry sauce.",
       "image": "https://i.pinimg.com/474x/b8/ae/39/b8ae39b2fb3ac194cccd729a513b9406.jpg",
-      "price": 1.32
+      "price": 11.32
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "category": "Dessert",
       "description": "Tangy lemon filling topped with a light, fluffy meringue, in a buttery pie crust.",
       "image": "https://i.pinimg.com/474x/27/08/6a/27086a4a112ff2bd4450995dc55a02f1.jpg",
-      "price": 1.13
+      "price": 11.13
     },
     {
       "id": 15,
@@ -118,7 +118,7 @@
       "category": "Alcohol-Free Drink",
       "description": "A chilled blend of matcha green tea and creamy milk, served over ice.",
       "image": "https://i.pinimg.com/236x/9e/bb/b1/9ebbb15b5be85b6f6d267d57ed505359.jpg",
-      "price": 0.85
+      "price": 10.85
     },
     {
       "id": 16,
@@ -126,7 +126,7 @@
       "category": "Alcohol-Free Drink",
       "description": "Refreshing lemonade mixed with fresh strawberry puree and a hint of mint.",
       "image": "https://i.pinimg.com/236x/c8/4a/c3/c84ac349a0a181a1e4e591d9bcd7925b.jpg",
-      "price": 0.76
+      "price": 10.76
     },
     {
       "id": 17,
@@ -134,7 +134,7 @@
       "category": "Alcohol-Free Drink",
       "description": "A refreshing mix of mint, lime, sugar, and soda water.",
       "image": "https://i.pinimg.com/236x/8a/3a/ef/8a3aef23c857ac1a2fd7b5fa1bcda19b.jpg",
-      "price": 0.76
+      "price": 10.76
     },
     {
       "id": 18,
@@ -142,7 +142,7 @@
       "category": "Alcohol-Free Drink",
       "description": "A crisp and cool mix of cucumber, mint, and soda water, perfect for a hot day.",
       "image": "https://i.pinimg.com/236x/a4/36/35/a43635f2ddee65ff5cfeb7890d38a314.jpg",
-      "price": 0.80
+      "price": 10.80
     },
     {
       "id": 19,
@@ -150,7 +150,7 @@
       "category": "Alcohol-Free Drink",
       "description": "Sweetened iced tea with a splash of fresh peach puree.",
       "image": "https://i.pinimg.com/236x/57/d3/b0/57d3b022459a0750ba34ee90fa95c9bf.jpg",
-      "price": 0.67
+      "price": 10.67
     },
     {
       "id": 20,
@@ -158,7 +158,7 @@
       "category": "Dessert",
       "description": "Moist carrot cake with cream cheese frosting and a sprinkle of walnuts.",
       "image": "https://i.pinimg.com/236x/54/d8/8a/54d88abdd338422bad62fb2a7bcc98cf.jpg",
-      "price": 1.23
+      "price": 11.23
     },
     {
       "id": 21,
@@ -166,7 +166,7 @@
       "category": "Seafood",
       "description": "A delicious seafood boil with shrimp, crab, lobster, corn, potatoes, and seasoned with Old Bay spices, served with melted butter.",
       "image": "https://i.pinimg.com/236x/dd/a8/07/dda8077de8d9953e80e7b87f4469adbe.jpg",
-      "price": 1.64
+      "price": 11.64
     },
     {
       "id": 22,
@@ -174,7 +174,7 @@
       "category": "Meaty",
       "description": "Creamy Alfredo sauce with grilled chicken and fettuccine, topped with parmesan.",
       "image": "https://i.pinimg.com/236x/fb/37/45/fb3745c0fc5a8719c02491a6edea8aaf.jpg",
-      "price": 2.40
+      "price": 12.40
     },
     {
       "id": 23,
@@ -182,7 +182,7 @@
       "category": "Cheesy",
       "description": "A delicious mix of mozzarella, cheddar, parmesan, and gouda on a crispy crust.",
       "image": "https://i.pinimg.com/236x/4f/f6/dd/4ff6dd8ce5acb172e34178a0376e7e61.jpg",
-      "price": 1.89
+      "price": 11.89
     },
     {
       "id": 24,
@@ -190,7 +190,7 @@
       "category": "Meaty",
       "description": "Savory meatballs in marinara sauce, topped with melted mozzarella, served in a toasted sub roll.",
       "image": "https://i.pinimg.com/236x/fa/cd/f5/facdf576ee762ac7404b8da265b933ba.jpg",
-      "price": 1.76
+      "price": 11.76
     },
     {
       "id": 25,
@@ -198,7 +198,7 @@
       "category": "Meaty",
       "description": "Tender beef wrapped in puff pastry with mushroom duxelles and a creamy cheese sauce.",
       "image": "https://i.pinimg.com/236x/25/74/b4/2574b4b04dc32db92940e1bf5fdb1770.jpg",
-      "price": 3.78
+      "price": 13.78
     },
     {
       "id": 26,
@@ -206,7 +206,7 @@
       "category": "Meaty",
       "description": "Tender pork ribs glazed with a smoky barbecue sauce, topped with melted cheddar cheese.",
       "image": "https://i.pinimg.com/474x/4e/4d/03/4e4d03d913995cd2b140e408c78ed0ff.jpg",
-      "price": 2.52
+      "price": 12.52
     },
     {
       "id": 27,
@@ -214,7 +214,7 @@
       "category": "Snacks",
       "description": "Crispy pastry filled with spiced potatoes and peas, served with chutney.",
       "image": "https://i.pinimg.com/474x/1c/68/fc/1c68fc95d5e356e843e97679b519959f.jpg",
-      "price": 0.09
+      "price": 10.09
     },
     {
       "id": 28,
@@ -222,7 +222,7 @@
       "category": "Dessert",
       "description": "Creamy vanilla ice cream topped with sweet, fluffy marshmallows.",
       "image": "https://i.pinimg.com/474x/06/59/0c/06590c7a8e2e0d00235e6279aad14c09.jpg",
-      "price": 0.14
+      "price": 10.14
     },
     {
       "id": 29,
@@ -230,7 +230,7 @@
       "category": "Dessert",
       "description": "Rich, moist red velvet cake with a smooth cream cheese frosting.",
       "image": "https://i.pinimg.com/236x/75/90/cf/7590cfc03d91635d4faa99b760105d23.jpg",
-      "price": 0.23
+      "price": 10.23
     },
     {
       "id": 30,
@@ -238,7 +238,7 @@
       "category": "Snacks",
       "description": "Crispy fries tossed in a spicy, tangy masala seasoning.",
       "image": "https://i.pinimg.com/236x/e1/36/a8/e136a8bcf98cae80bf6406c2f0879fe6.jpg",
-      "price": 0.11
+      "price": 10.11
     }
   ]
 }

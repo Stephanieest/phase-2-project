@@ -15,7 +15,7 @@ function App() {
   const [menuFood, setMenuFood] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3001/food')
+    fetch('https://steph-fc-back-end.onrender.com/food')
       .then(res => {
         if (!res.ok) {
           throw new Error('Failed to fetch data')

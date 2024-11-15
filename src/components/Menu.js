@@ -6,7 +6,7 @@ const Menu = ({ addToCart, addToFavourites }) => {
 
   // GET request to fetch food from the backend
   useEffect(() => {
-    fetch('http://localhost:3001/food')
+    fetch('https://steph-fc-back-end.onrender.com/food')
       .then((res) => res.json())
       .then((data) => {
         setFood(data);
