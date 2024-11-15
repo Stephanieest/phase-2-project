@@ -1,8 +1,8 @@
 # Steph-FC Restaurant App
 
-A simple and intuitive restaurant web application built using React JS, showcasing menu items, cart functionality, and favourites management for a better dining experience. The app allows users to explore a menu, add items to their cart and favourites, and manage them easily.
+**A simple and intuitive restaurant web application built using React JS, showcasing menu items, cart functionality, and favourites management for a better dining experience. The app allows users to explore a menu, add items to their cart and favourites, and manage them easily.**
 
-By: Stephanie Njonjo
+**By: Stephanie Njonjo**
 
 
 ## Description
@@ -16,6 +16,9 @@ With Steph-FC, users can:
 - Save their favorite dishes to a favourites list for quick access.
 - Easily remove items from both the cart and favourites list.
 
+Screenshot
+![alt text](image.png)
+
 ## Features
 
 - Home Page: A welcoming page that introduces the restaurant and offers easy navigation to the menu, cart, and favourites pages.
@@ -25,8 +28,6 @@ With Steph-FC, users can:
 - Search Functionality: Users can search for menu items by name.
 - Alerts: Displays a confirmation alert when an item is added or removed from the cart or favourites.
 
-Screenshot
-![alt text](image.png)
 
 ## How to Use
 
