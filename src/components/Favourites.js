@@ -3,17 +3,17 @@ import React from 'react';
 const Favourites = ({ favourites, removeFromFavourites }) => (
   <div>
     <h2>Favourites</h2>
-    <div className="favourite-items">
+    <div className="favourite-foods">
       {favourites.length > 0 ? (
-        favourites.map( => (
-          <div key={item.id} className="favourite-item">
-            <h4>{item.name}</h4>
-            <p>${item.price}</p>
-            <button onClick={() => removeFromFavourites(item.id)}>Remove from Favourites</button>
+        favourites.map(food => (
+          <div key={food.id} className="favourite-food">
+            <h4>{food.name}</h4>
+            <p>${food.price}</p>
+            <button onClick={() => removeFromFavourites(food.id)}>Remove from Favourites</button>
           </div>
         ))
       ) : (
-        <p>No items in your favourites</p>
+        <p>No food in your favourites</p>
       )}
     </div>
   </div>
