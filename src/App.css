@@ -45,7 +45,7 @@ body {
 }
 
 .home p {
-  color: #a2c9d6; /* Pastel blue */
+  color: #a2c9d6; 
   font-size: 1.2rem;
 }
 
@@ -54,5 +54,43 @@ body {
   height: auto;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+/* Cart and Favourites Section */
+.cart-items, .favourite-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-item, .favourite-item {
+  background-color: #3c3c3c; 
+  padding: 1rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cart-item h4, .favourite-item h4 {
+  color: #f8d1f7;
+}
+
+.cart-item p, .favourite-item p {
+  color: #a2c9d6;
+}
+
+button {
+  background-color: #f8d1f7; /* Pastel pink button */
+  color: #2a2a2a;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f2b0d0; /* Lighter pastel pink for hover */
 }
 
