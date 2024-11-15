@@ -24,7 +24,7 @@ body {
 
 .navbar li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .navbar a {
@@ -35,7 +35,7 @@ body {
 
 /* Home page */
 .home {
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
 }
 
