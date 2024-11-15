@@ -5,7 +5,7 @@ A simple and intuitive restaurant web application built using React JS, showcasi
 By: Stephanie Njonjo
 
 
-# Description
+## Description
 
 Steph-FC is a restaurant web application that brings together a seamless experience for customers to browse a delicious menu, add their favorite items to a cart or favourites list, and manage their selections easily. The app features React JS for dynamic interactions and state management, and it makes use of React Router for navigation across pages.
 
@@ -49,48 +49,47 @@ The live site allows you to:
 ## Local Development
 If you want to run the project locally, follow these steps:
 
-Node.js installed on your computer
-A basic understanding of React JS
-A code editor (VS Code recommended)
-Terminal or Command Line
-Installation Process
-Clone this repository:
+1. Node.js installed on your computer
+2. A basic understanding of React JS
+3. A code editor (VS Code recommended)
+4. Terminal or Command Line
 
-bash
-Copy code
-git clone git@github.com:yourusername/steph-fc-restaurant-app.git
-Or download the ZIP file of the code.
 
-Navigate to the project directory:
+### Installation Process
 
-bash
-Copy code
-cd steph-fc-restaurant-app
-Install the required dependencies:
+1. Clone this repository:
+git@github.com:dennis-kiboi/blog-app-sdf-ft11.git
+or by downloading a ZIP file of the code.
 
-bash
-Copy code
+1. Navigate to the project directory:
+cd phase-2-project
+
+1. Install the required dependecies: 
 npm install
-Run the development server:
 
-bash
-Copy code
+1. Run the development server:
 npm start
-Open your browser and visit http://localhost:3000 to view the app locally.
 
-Technologies Used
-React JS: For building the UI components and managing state.
-React Router: For navigation between different pages (Home, Menu, Cart, Favourites).
-CSS3: For styling the components and layout.
-JavaScript (ES6): For dynamic functionality and state management.
-Related Repositories
+
+1. Open your browser and visit http://localhost:3000 to view the app locally.
+
+## Technologies Used
+
+1. React JS: For building the UI components and managing state.
+1. React Router: For navigation between different pages (Home, Menu, Cart, Favourites).
+1. CSS: For styling the components and layout.
+1. JavaScript: For dynamic functionality and state management.
+
+## Related Repositories
+
 Backend API: API for fetching food data (if applicable).
 Deployed API: Live API URL for food data.
-Support and Contact
-For any questions, suggestions, or assistance, feel free to reach out:
 
+## Support and Contact
+For any questions, suggestions, or assistance, feel free to reach out:
 Email: stephnjonjo@gmail.com
-License
+
+## License
 MIT License
 
 Copyright © 2024 [Your Name]
